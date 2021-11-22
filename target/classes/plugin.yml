@@ -1,0 +1,23 @@
+main: bct.loadupstudios.ScaleLimits.Main
+name: ScaleLimits
+version: 4.0
+api-version: 1.13
+author: BrandonT80
+website: https://www.loadupstudios.com
+depend: 
+prefix: ScaleLimits
+description: Scales the limits of the mob cap
+commands:
+  scalelimits:
+   description: Commands - /slppm
+   usage: /slppm
+permissions:
+  scalelimits.*:
+    desription: Wildcard Permission
+    default: op
+    children:
+      scalelimits.check: true
+  scalelimits.check:
+    description: Allows changing the global cap
+    default: false
+    

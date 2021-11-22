@@ -1,0 +1,14 @@
+#Plugin only works with Paper as it modifies values for Paper's Per Player Mobs.
+configversion: 2.0
+maxWorldMonsters: 200
+maxWorldPerPlayer: 20
+maxNetherMonsters: 200
+maxNetherPerPlayer: 20
+maxEndMonsters: 400
+maxEndPerPlayer: 80
+enforceworld: true
+enforcenether: true
+enforceend: true
+worldname: LoadMC_Season_One
+netherworldname: LoadMC_Season_One_nether
+endworldname: LoadMC_Season_One_the_end
