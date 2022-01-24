@@ -1,6 +1,6 @@
 main: bct.loadupstudios.ScaleLimits.Main
 name: ScaleLimits
-version: 4.0
+version: 4.1
 api-version: 1.13
 author: BrandonT80
 website: https://www.loadupstudios.com
